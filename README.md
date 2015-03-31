@@ -1,6 +1,8 @@
 # win32gui
-headers only lightweight c++ gui library
 
+Instead of writing **CreateWindowEx** everywhere and remebering all the constants, flags, and messages that go for each control, I made this helper library that wraps around the Windows API and makes it fast and easy to develop simple GUI applications on Windows platform.
+
+## Example code:
 
 ```C++
 
