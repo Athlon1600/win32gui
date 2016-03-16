@@ -1,0 +1,24 @@
+﻿Build started 3/28/2015 5:08:26 PM.
+     1>Project "C:\Users\Paul\Documents\Visual Studio 2013\Projects\Win32\GUI\GUI.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (GUI.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\paul\documents\visual studio 2013\projects\win32\gui\trayicon.h(40): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(294) : see declaration of 'wcscpy'
+     1>c:\users\paul\documents\visual studio 2013\projects\win32\gui\trayicon.h(58): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(294) : see declaration of 'wcscpy'
+     1>c:\users\paul\documents\visual studio 2013\projects\win32\gui\trayicon.h(92): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(294) : see declaration of 'wcscpy'
+     1>c:\users\paul\documents\visual studio 2013\projects\win32\gui\trayicon.h(95): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(294) : see declaration of 'wcscpy'
+     1>c:\users\paul\documents\visual studio 2013\projects\win32\gui\trayicon.h(176): warning C4996: 'GetVersionExW': was declared deprecated
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442) : see declaration of 'GetVersionExW'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Paul\Documents\Visual Studio 2013\Projects\Win32\Debug\win32gui.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Paul\Documents\Visual Studio 2013\Projects\Win32\Debug\win32gui.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Paul\Documents\Visual Studio 2013\Projects\Win32\Debug\win32gui.lib" /MACHINE:X86 Debug\Source.obj
+         GUI.vcxproj -> C:\Users\Paul\Documents\Visual Studio 2013\Projects\Win32\Debug\win32gui.exe
+     1>Done Building Project "C:\Users\Paul\Documents\Visual Studio 2013\Projects\Win32\GUI\GUI.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.41

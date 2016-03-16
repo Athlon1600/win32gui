@@ -149,7 +149,7 @@ class TextBox : public Widget {
 public:
 	TextBox(const TCHAR *text, Widget *parent){
 
-		hWnd = CreateWindowEx(WS_EX_CLIENTEDGE, L"EDIT", text, WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_MAXIMIZEBOX, 0, 0, 100, 20, parent->hWnd, 0, GetModuleHandle(NULL), 0);
+		hWnd = CreateWindowEx(WS_EX_CLIENTEDGE, L"EDIT", text, WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_MAXIMIZEBOX | ES_AUTOHSCROLL | ES_MULTILINE, 0, 0, 100, 20, parent->hWnd, 0, GetModuleHandle(NULL), 0);
 
 		wrap(hWnd);
 	}
